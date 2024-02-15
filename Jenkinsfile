@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh "docker build -t ram1uj/vrxn-spring-boot-app ."
+                sh "docker build -t skykotha/demo1 ."
             }
             }
     }
